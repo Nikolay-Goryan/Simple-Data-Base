@@ -2,7 +2,7 @@
 //  main.cpp
 //  FinalProblem
 //
-//  Created by Николай Горян on 02/01/2019.
+//  Created by Nikolay Goryan on 02/01/2019.
 //  Copyright © 2019 Николай Горян. All rights reserved.
 //
 
@@ -16,7 +16,6 @@
 
 using namespace std;
 
-// Реализуйте функции и методы классов и при необходимости добавьте свои
 
 class Date {
 public:
@@ -138,7 +137,7 @@ private:
 };
 
 
-bool checkCorrectDate(const string& date, Date& current_date)//ïðîâåðèòü êîððåêòíîñòü äàòû
+bool checkCorrectDate(const string& date, Date& current_date)
 {
     
     stringstream sstr(date);
@@ -148,7 +147,7 @@ bool checkCorrectDate(const string& date, Date& current_date)//ïðîâåðèò�
     sstr >> year;
     sstr.ignore(1);
     sstr >> month;
-    if(sstr.fail())//ïðîâåðêà ìåñÿöà
+    if(sstr.fail())
     {
         cout << "Wrong date format: " << date << endl;
         return false;
@@ -159,11 +158,11 @@ bool checkCorrectDate(const string& date, Date& current_date)//ïðîâåðèò�
         return false;
     }
     
-    //åñëè âñ¸ îê ïðîäîëæàåì ñïðàøèâàòü
+    
     sstr.ignore(1);
     sstr >> day;
-    //    cout << "year " << year << " month " << month << " day " << day << endl;  //äëÿ ïðîâåðêè ââîäà
-    if(sstr.fail()) // ïðîâåðêà äíÿ
+    
+    if(sstr.fail()) 
     {
         cout << "Wrong date format: " << date << endl;
         return false;
