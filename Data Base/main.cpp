@@ -3,7 +3,7 @@
 //  FinalProblem
 //
 //  Created by Nikolay Goryan on 02/01/2019.
-//  Copyright © 2019 Николай Горян. All rights reserved.
+//  Copyright © 2019 Nikolay Goryan. All rights reserved.
 //
 
 #include <iostream>
