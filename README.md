@@ -1,4 +1,4 @@
-## Simple-Data-Base
+## SimpleDataBase
 This project implements a small data base which can contain the events that have happened on a given date.\
 The programm can interact with the user using standart streams stdin and stdout.
 
